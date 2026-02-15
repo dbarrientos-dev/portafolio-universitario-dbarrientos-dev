@@ -3,7 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="CaféBinario - Wiki técnica FOSS sobre informática, Linux, electrónica y ciencias de la computación." />
+  <meta name="description" content="CaféBinario - Wiki técnica FOSS sobre informática, Linux, electrónica y ciencias de la computación. Desarrollado por The KernelGarden en Armenia, Quindío." />
+  <meta name="keywords" content="Linux, FOSS, Crisol OS, programación, electrónica, informática, Armenia Quindío, Vonsai, The KernelGarden" />
+  <meta name="author" content="Vonsai - The KernelGarden" />
+  <meta property="og:title" content="CaféBinario | Tecnología explicada bien" />
+  <meta property="og:description" content="Wiki técnica FOSS desarrollada por The KernelGarden en Armenia, Quindío" />
+  <meta property="og:type" content="website" />
+  
   <title>CaféBinario | Tecnología explicada bien</title>
   <link rel="stylesheet" href="CSS/style.css" />
 </head>
@@ -20,9 +26,10 @@
 
       <nav class="nav-links">
         <a href="#explorar">Explorar</a>
+        <a href="#crisol">Crisol OS</a>
         <a href="#equipo">Equipo</a>
         <a href="#contribuye">Contribuye</a>
-        <a href="/contacto.html>Contacto</a>
+        <a href="/contacto.html">Contacto</a>
       </nav>
 
       <div class="nav-actions">
@@ -30,7 +37,7 @@
         <button class="btn btn-primary">Crear cuenta</button>
       </div>
 
-      <button class="menu-toggle" id="menuToggle">☰</button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
     </div>
   </header>
 
@@ -39,7 +46,7 @@
     <div class="container hero-grid">
 
       <div class="hero-content">
-        <span class="badge">🚀 Hecho en Quindío por estudiantes</span>
+        <span class="badge">🚀 Desarrollado por The KernelGarden en Armenia, Quindío</span>
 
         <h1>
           Tecnología seria, <span class="highlight">explicada bien</span>
@@ -51,9 +58,14 @@
           electrónica y ciencias de la computación con rigor real.
         </p>
 
+        <p class="hero-subtitle">
+          <strong>Impulsado por Vonsai</strong> — Innovación tecnológica desde el corazón del Quindío.
+        </p>
+
         <div class="hero-buttons">
           <button class="btn btn-primary">Explorar artículos</button>
-          <button class="btn btn-outline">Ver en GitHub</button>
+          <button class="btn btn-outline">Descargar Crisol OS</button>
+          <a href="https://github.com/vonsai/cafebinario" class="btn btn-outline">Ver en GitHub</a>
         </div>
       </div>
 
@@ -61,6 +73,51 @@
         <div class="code-box">&lt;/&gt;</div>
       </div>
 
+    </div>
+  </section>
+
+  <!-- ===================== VONSAI & THE KERNELGARDEN ===================== -->
+  <section class="vonsai-section">
+    <div class="container">
+      
+      <header class="section-header">
+        <h2>Desarrollado por The KernelGarden</h2>
+        <p>Equipo de desarrollo de Vonsai, empresa tecnológica con sede en Armenia, Quindío</p>
+      </header>
+
+      <div class="grid-2">
+        
+        <article class="card highlight-card">
+          <h3>🌱 The KernelGarden</h3>
+          <p>
+            Grupo de desarrolladores y programadores especializados en soluciones 
+            de código abierto, sistemas Linux y desarrollo web. Creemos en el 
+            software libre como pilar de la innovación tecnológica.
+          </p>
+          <ul class="feature-list">
+            <li>Desarrollo de sistemas operativos personalizados</li>
+            <li>Infraestructura en la nube y servidores</li>
+            <li>Aplicaciones web y de escritorio</li>
+            <li>Consultoría en tecnologías FOSS</li>
+          </ul>
+        </article>
+
+        <article class="card highlight-card">
+          <h3>🚀 Vonsai</h3>
+          <p>
+            Empresa matriz con sede en Armenia, Quindío, comprometida con democratizar 
+            el acceso a tecnología de calidad. Desarrollamos soluciones que combinan 
+            innovación técnica con responsabilidad social.
+          </p>
+          <ul class="feature-list">
+            <li>Desarrollo de software libre y open source</li>
+            <li>Educación tecnológica comunitaria</li>
+            <li>Infraestructura digital para el Eje Cafetero</li>
+            <li>Proyectos de impacto social</li>
+          </ul>
+        </article>
+
+      </div>
     </div>
   </section>
 
@@ -92,6 +149,107 @@
         </p>
       </article>
 
+      <article class="card">
+        <h3>🇨🇴 Hecho en Colombia</h3>
+        <p>
+          Desarrollado en Armenia, Quindío. Talento local con visión global.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>🐧 Crisol OS incluido</h3>
+        <p>
+          Distribución Linux propia, estable y optimizada para desarrollo.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3>📖 Documentación completa</h3>
+        <p>
+          Guías detalladas desde instalación hasta configuración avanzada.
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===================== CRISOL OS ===================== -->
+  <section id="crisol" class="crisol-section">
+    <div class="container">
+
+      <header class="section-header">
+        <h2>Crisol OS</h2>
+        <p>Nuestra distribución Linux profesional</p>
+      </header>
+
+      <div class="crisol-content">
+        
+        <div class="crisol-main">
+          <article class="card crisol-card">
+            <h3>🐧 Sistema operativo profesional y estable</h3>
+            <p>
+              Crisol OS es nuestra distribución Linux basada en principios de estabilidad 
+              empresarial, similar a AlmaLinux y CentOS, pero optimizada para las 
+              necesidades de desarrollo moderno y educación técnica.
+            </p>
+            
+            <h4>Características principales:</h4>
+            <ul class="feature-list">
+              <li><strong>Base sólida:</strong> Arquitectura estable tipo Enterprise Linux</li>
+              <li><strong>XFCE mejorado:</strong> Entorno de escritorio personalizado, más eficiente y elegante que Cinnamon</li>
+              <li><strong>Preconfigurado:</strong> Herramientas de desarrollo listas para usar</li>
+              <li><strong>Optimizado:</strong> Rendimiento mejorado para hardware moderno y legacy</li>
+              <li><strong>Seguridad:</strong> Actualizaciones de seguridad regulares</li>
+              <li><strong>Documentación:</strong> Guías completas en español</li>
+            </ul>
+
+            <div class="crisol-buttons">
+              <button class="btn btn-primary">Descargar Crisol OS</button>
+              <button class="btn btn-outline">Ver documentación</button>
+              <button class="btn btn-outline">Guía de instalación</button>
+            </div>
+          </article>
+        </div>
+
+        <div class="grid-2">
+          
+          <article class="card">
+            <h4>🎨 Entorno de escritorio</h4>
+            <p>
+              Nuestro XFCE personalizado combina la ligereza y eficiencia de XFCE 
+              con la elegancia visual y funcionalidad de Cinnamon, superando a ambos 
+              en rendimiento y usabilidad.
+            </p>
+          </article>
+
+          <article class="card">
+            <h4>⚙️ Para quién es</h4>
+            <p>
+              Ideal para estudiantes, desarrolladores, sysadmins y cualquiera que 
+              busque un sistema estable sin sacrificar productividad ni estética.
+            </p>
+          </article>
+
+          <article class="card">
+            <h4>🔧 Stack incluido</h4>
+            <p>
+              Python, Node.js, Git, Docker, VS Code, herramientas de compilación, 
+              y todo lo necesario para desarrollo web, sistemas y ciencia de datos.
+            </p>
+          </article>
+
+          <article class="card">
+            <h4>🌐 Soporte comunitario</h4>
+            <p>
+              Documentación en español, foros activos y comunidad en crecimiento. 
+              Soporte directo de The KernelGarden.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+
     </div>
   </section>
 
@@ -100,7 +258,7 @@
     <div class="container">
 
       <header class="section-header">
-        <h2>Primeros artículos</h2>
+        <h2>Artículos destacados</h2>
         <p>Una base sólida para comenzar tu viaje técnico.</p>
       </header>
 
@@ -110,32 +268,66 @@
           <span class="tag basic">Básico</span>
           <h3>¿Qué es Linux y por qué importa?</h3>
           <p>Fundamentos del sistema operativo libre más influyente del mundo.</p>
+          <div class="article-meta">
+            <span>⏱️ 10 min</span>
+            <span>👁️ 1.2k vistas</span>
+          </div>
         </article>
 
         <article class="card article-card">
           <span class="tag basic">Básico</span>
           <h3>Sistemas de numeración</h3>
           <p>Del binario al hexadecimal con ejemplos prácticos.</p>
+          <div class="article-meta">
+            <span>⏱️ 8 min</span>
+            <span>👁️ 856 vistas</span>
+          </div>
         </article>
 
         <article class="card article-card">
           <span class="tag intermediate">Intermedio</span>
           <h3>Git desde cero</h3>
           <p>Control de versiones explicado para humanos.</p>
+          <div class="article-meta">
+            <span>⏱️ 15 min</span>
+            <span>👁️ 2.1k vistas</span>
+          </div>
         </article>
 
         <article class="card article-card">
           <span class="tag intermediate">Intermedio</span>
           <h3>Electrónica digital</h3>
           <p>Puertas lógicas y fundamentos de circuitos.</p>
+          <div class="article-meta">
+            <span>⏱️ 12 min</span>
+            <span>👁️ 743 vistas</span>
+          </div>
         </article>
 
         <article class="card article-card">
           <span class="tag advanced">Avanzado</span>
           <h3>Algoritmos de ordenamiento</h3>
           <p>Análisis matemático y comparación de rendimiento.</p>
+          <div class="article-meta">
+            <span>⏱️ 20 min</span>
+            <span>👁️ 1.5k vistas</span>
+          </div>
         </article>
 
+        <article class="card article-card">
+          <span class="tag basic">Básico</span>
+          <h3>Instalando Crisol OS</h3>
+          <p>Guía paso a paso para tu primera instalación.</p>
+          <div class="article-meta">
+            <span>⏱️ 12 min</span>
+            <span>👁️ 3.2k vistas</span>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="section-cta">
+        <button class="btn btn-primary">Ver todos los artículos</button>
       </div>
 
     </div>
@@ -147,6 +339,7 @@
 
       <header class="section-header">
         <h2>Características inteligentes</h2>
+        <p>Herramientas que potencian tu aprendizaje</p>
       </header>
 
       <div class="grid-2">
@@ -171,6 +364,26 @@
           <p>Convierte pseudocódigo en diagramas UML.</p>
         </div>
 
+        <div class="card">
+          <h4>🔍 Búsqueda semántica</h4>
+          <p>Encuentra contenido por concepto, no solo por palabras clave.</p>
+        </div>
+
+        <div class="card">
+          <h4>📝 Notas colaborativas</h4>
+          <p>Comparte anotaciones y comentarios en cada artículo.</p>
+        </div>
+
+        <div class="card">
+          <h4>🎓 Rutas de aprendizaje</h4>
+          <p>Secuencias curadas de artículos por tema y nivel.</p>
+        </div>
+
+        <div class="card">
+          <h4>🌙 Modo oscuro inteligente</h4>
+          <p>Adaptación automática según tu horario.</p>
+        </div>
+
       </div>
 
     </div>
@@ -182,29 +395,52 @@
 
       <header class="section-header">
         <h2>El equipo</h2>
-        <p>Estudiantes apasionados por tecnología seria.</p>
+        <p>Estudiantes y profesionales apasionados por tecnología seria.</p>
       </header>
 
       <div class="grid-3">
 
-        <article class="card">
+        <article class="card team-card">
+          <div class="team-avatar">🧑‍💻</div>
           <h3>Daniel Alejandro Barrientos Soto</h3>
           <span class="role">Fundador & Visión</span>
           <p>Interesado en la intersección entre software, hardware y física aplicada.</p>
+          <div class="team-tags">
+            <span class="tag">Linux</span>
+            <span class="tag">Hardware</span>
+            <span class="tag">Física</span>
+          </div>
         </article>
 
-        <article class="card">
+        <article class="card team-card">
+          <div class="team-avatar">🐧</div>
           <h3>Juan Sebastián Gonzales</h3>
           <span class="role">Infraestructura Linux</span>
-          <p>Responsable de servidores y estabilidad del sistema.</p>
+          <p>Responsable de servidores y estabilidad del sistema. Arquitecto de Crisol OS.</p>
+          <div class="team-tags">
+            <span class="tag">DevOps</span>
+            <span class="tag">Crisol OS</span>
+            <span class="tag">Servidores</span>
+          </div>
         </article>
 
-        <article class="card">
+        <article class="card team-card">
+          <div class="team-avatar">🎨</div>
           <h3>Miguel</h3>
           <span class="role">Frontend & Diseño</span>
-          <p>Interfaces limpias y funcionales.</p>
+          <p>Interfaces limpias y funcionales. Experiencia de usuario excepcional.</p>
+          <div class="team-tags">
+            <span class="tag">UI/UX</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
         </article>
 
+      </div>
+
+      <div class="team-join">
+        <p>¿Te interesa unirte a The KernelGarden?</p>
+        <button class="btn btn-outline">Contactar al equipo</button>
       </div>
 
     </div>
@@ -216,17 +452,84 @@
 
       <header class="section-header">
         <h2>Cómo contribuir</h2>
+        <p>Todo el mundo puede mejorar CaféBinario</p>
       </header>
 
-      <ol class="steps">
-        <li>Fork del repositorio en GitHub</li>
-        <li>Clonar localmente</li>
-        <li>Crear rama nueva</li>
-        <li>Escribir en Markdown</li>
-        <li>Commit y push</li>
-        <li>Abrir Pull Request</li>
-      </ol>
+      <div class="contribute-grid">
+        
+        <div class="contribute-main">
+          <article class="card">
+            <h3>📝 Escribir artículos</h3>
+            <ol class="steps">
+              <li><strong>Fork</strong> del repositorio en GitHub</li>
+              <li><strong>Clonar</strong> localmente: <code>git clone [url]</code></li>
+              <li><strong>Crear rama</strong> nueva: <code>git checkout -b articulo/mi-tema</code></li>
+              <li><strong>Escribir</strong> en Markdown en <code>/articulos</code></li>
+              <li><strong>Commit</strong> con mensaje descriptivo</li>
+              <li><strong>Push</strong> y abrir Pull Request</li>
+            </ol>
+          </article>
+        </div>
 
+        <div class="grid-2">
+          
+          <article class="card">
+            <h4>🐛 Reportar bugs</h4>
+            <p>Encontraste un error? Abre un issue en GitHub con detalles sobre cómo reproducirlo.</p>
+          </article>
+
+          <article class="card">
+            <h4>💡 Sugerir mejoras</h4>
+            <p>Tienes ideas? Compártelas en nuestro repositorio de GitHub o Discord.</p>
+          </article>
+
+          <article class="card">
+            <h4>🌐 Traducir</h4>
+            <p>Ayuda a traducir artículos a otros idiomas y expande nuestro alcance.</p>
+          </article>
+
+          <article class="card">
+            <h4>🧪 Probar Crisol OS</h4>
+            <p>Usa Crisol OS y reporta tu experiencia para mejorarlo continuamente.</p>
+          </article>
+
+        </div>
+
+      </div>
+
+      <div class="contribute-guidelines">
+        <p>📖 Lee nuestra <a href="/guia-contribucion.html">Guía de Contribución</a> completa antes de empezar.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== STATS ===================== -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        
+        <div class="stat-item">
+          <span class="stat-number">50+</span>
+          <span class="stat-label">Artículos técnicos</span>
+        </div>
+
+        <div class="stat-item">
+          <span class="stat-number">200+</span>
+          <span class="stat-label">Usuarios activos</span>
+        </div>
+
+        <div class="stat-item">
+          <span class="stat-number">15+</span>
+          <span class="stat-label">Contribuidores</span>
+        </div>
+
+        <div class="stat-item">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Open Source</span>
+        </div>
+
+      </div>
     </div>
   </section>
 
@@ -236,14 +539,28 @@
       <h2>Conectemos</h2>
       <p>Ideas, colaboraciones o preguntas técnicas.</p>
 
-      <div class="contact-buttons">
-        <a href="/contacto.html" class="btn btn-outline">
-          contacto@cafebinario.dev
-        </a>
-        <a href="https://github.com/vonsai/cafebinario" class="btn btn-outline">
-          GitHub
-        </a>
+      <div class="contact-grid">
+        
+        <div class="contact-buttons">
+          <a href="/contacto.html" class="btn btn-outline">
+            📧 contacto@cafebinario.dev
+          </a>
+          <a href="https://github.com/vonsai/cafebinario" class="btn btn-outline" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            GitHub
+          </a>
+        </div>
+
+        <div class="contact-info">
+          <p><strong>Vonsai - The KernelGarden</strong></p>
+          <p>Armenia, Quindío, Colombia</p>
+          <p>Desarrollando el futuro del software libre en Colombia</p>
+        </div>
+
       </div>
+
     </div>
   </section>
 
@@ -251,32 +568,50 @@
   <footer class="footer">
     <div class="container footer-grid">
 
-      <div>
-        <h4>CaféBinario</h4>
-        <p>Wiki técnica FOSS hecha en Quindío.</p>
+      <div class="footer-brand">
+        <h4>
+          <span class="logo-icon">☕</span>
+          CaféBinario
+        </h4>
+        <p>Wiki técnica FOSS desarrollada por The KernelGarden en Armenia, Quindío.</p>
+        <p><small>Parte de <strong>Vonsai</strong> — Tecnología con propósito.</small></p>
       </div>
 
-      <div>
+      <div class="footer-links">
         <h4>Proyecto</h4>
         <ul>
-          <li><a href="#">GitHub</a></li>
-          <li><a href="#">Licencia MIT</a></li>
-          <li><a href="#">Roadmap</a></li>
+          <li><a href="https://github.com/vonsai/cafebinario">GitHub</a></li>
+          <li><a href="/licencia.html">Licencia MIT</a></li>
+          <li><a href="/roadmap.html">Roadmap</a></li>
+          <li><a href="/changelog.html">Changelog</a></li>
         </ul>
       </div>
 
-      <div>
+      <div class="footer-links">
         <h4>Comunidad</h4>
         <ul>
-          <li><a href="#">Contribuir</a></li>
-          <li><a href="#">Código de conducta</a></li>
+          <li><a href="/contribuir.html">Contribuir</a></li>
+          <li><a href="/codigo-conducta.html">Código de conducta</a></li>
+          <li><a href="/discord">Discord</a></li>
+          <li><a href="/foro">Foro</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Recursos</h4>
+        <ul>
+          <li><a href="/crisol">Crisol OS</a></li>
+          <li><a href="/documentacion">Documentación</a></li>
+          <li><a href="/tutoriales">Tutoriales</a></li>
+          <li><a href="/api">API</a></li>
         </ul>
       </div>
 
     </div>
 
     <div class="footer-bottom">
-      <p>© 2026 CaféBinario by Vonsai — FOSS forever.</p>
+      <p>© 2026 CaféBinario by <strong>Vonsai</strong> — FOSS forever.</p>
+      <p class="footer-credits">Desarrollado con ❤️ por <strong>The KernelGarden</strong> en Armenia, Quindío 🇨🇴</p>
     </div>
   </footer>
 
