@@ -25,6 +25,9 @@ class MobileMenu {
   init() {
     if (!this.menuToggle || !this.navLinks) return;
 
+    this.menuToggle.setAttribute('aria-expanded', 'false');
+    this.navLinks.setAttribute('aria-hidden', 'true');
+
     this.menuToggle.addEventListener('click', () => this.toggle());
     
     // Cerrar menú al hacer click en un enlace
@@ -34,7 +37,8 @@ class MobileMenu {
 
     // Cerrar menú al hacer click fuera
     document.addEventListener('click', (e) => {
-      if (!e.target.closest('.nav-container')) {
+      const clickedInsideNavbar = e.target.closest('.navbar');
+      if (!clickedInsideNavbar) {
         this.close();
       }
     });
@@ -59,6 +63,7 @@ class MobileMenu {
   open() {
     this.body.classList.add(CONFIG.menuOpenClass);
     this.navLinks.classList.add('active');
+    this.navLinks.setAttribute('aria-hidden', 'false');
     this.menuToggle.setAttribute('aria-expanded', 'true');
     this.menuToggle.innerHTML = '✕';
   }
@@ -66,6 +71,7 @@ class MobileMenu {
   close() {
     this.body.classList.remove(CONFIG.menuOpenClass);
     this.navLinks.classList.remove('active');
+    this.navLinks.setAttribute('aria-hidden', 'true');
     this.menuToggle.setAttribute('aria-expanded', 'false');
     this.menuToggle.innerHTML = '☰';
   }
